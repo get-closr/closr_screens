@@ -13,6 +13,8 @@ dependencies:
   flutter_bloc: ^0.7.0
   meta: ^1.1.6
   equatable: ^0.2.0
+  quick_actions: ^0.3.0+1
+  unicorndial: ^1.1.5
 
   cupertino_icons: ^0.1.2
 

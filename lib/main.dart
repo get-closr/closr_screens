@@ -1,49 +1,17 @@
-import 'package:closr_screens/wave_slider.dart';
+// import 'package:closr_screens/fab/fab.dart';
+import 'package:closr_screens/unicorn_dialer/unicorn.dart';
 import 'package:flutter/material.dart';
-import 'splash.dart';
 
-void main() => runApp(MaterialApp(
-      home: App(),
-      debugShowCheckedModeBanner: false,
-    ));
+void main() => runApp(MyApp());
 
-class App extends StatefulWidget {
-  @override
-  _AppState createState() => _AppState();
-}
-
-class _AppState extends State<App> {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        padding: EdgeInsets.all(32.0),
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[
-              // Splash(
-              //   child: Container(
-              //     width: 200,
-              //     height: 200,
-              //     color: Colors.blue,
-              //     child: Center(
-              //       child: Text("Click me Please"),
-              //     ),
-              //   ),
-              //   onTap: () {
-              //     print('tap');
-              //   },
-              // ),
-              // Splash(
-              //   child: Icon(Icons.close),
-              //   onTap: () {},
-              // ),
-              WaveSlider(),
-            ],
-          ),
-        ),
-      ),
+    return MaterialApp(
+      title: 'Material App',
+      home: Example(),
+      // home: FloatingActionButtonDemo()
+
     );
   }
 }

@@ -1,4 +1,4 @@
-import 'package:closr_screens/wave_painter.dart';
+import 'package:closr_screens/wave_slider/wave_painter.dart';
 import 'package:flutter/material.dart';
 
 class WaveSlider extends StatefulWidget {
