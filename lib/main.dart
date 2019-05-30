@@ -1,4 +1,5 @@
 // import 'package:closr_screens/fab/fab.dart';
+import 'package:closr_screens/dashboard/main_page.dart';
 import 'package:closr_screens/unicorn_dialer/unicorn.dart';
 import 'package:flutter/material.dart';
 
@@ -9,7 +10,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      home: Example(),
+      home: MainPage(),
+      // home: Example(),
       // home: FloatingActionButtonDemo()
 
     );

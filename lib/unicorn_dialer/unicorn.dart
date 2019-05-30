@@ -23,17 +23,21 @@ class _Example extends State<Example> {
 
     childButtons.add(UnicornButton(
         currentButton: FloatingActionButton(
-            heroTag: "airplane",
-            backgroundColor: Colors.greenAccent,
-            mini: true,
-            child: Icon(Icons.airplanemode_active))));
+      heroTag: "airplane",
+      backgroundColor: Colors.greenAccent,
+      mini: true,
+      child: Icon(Icons.airplanemode_active),
+      onPressed: () {},
+    )));
 
     childButtons.add(UnicornButton(
         currentButton: FloatingActionButton(
-            heroTag: "directions",
-            backgroundColor: Colors.blueAccent,
-            mini: true,
-            child: Icon(Icons.directions_car))));
+      heroTag: "directions",
+      backgroundColor: Colors.blueAccent,
+      mini: true,
+      child: Icon(Icons.directions_car),
+      onPressed: () {},
+    )));
 
     return Scaffold(
         floatingActionButton: UnicornDialer(
